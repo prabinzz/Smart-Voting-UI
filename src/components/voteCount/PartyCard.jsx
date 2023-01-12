@@ -3,7 +3,7 @@ import React from "react";
 const PartyCard = ({ party, total }) => {
   const percent = Math.floor((party.vote / total) * 100);
   return (
-    <div className="p-4 border shadow-md md:min-w-[42rem] rounded-md bg-white flex flex-row items-center">
+    <div className="p-4 border shadow-md w-full lg:w-[40%] rounded-md bg-white flex flex-row items-center">
       <div className="logo relative right-0 bottom-0">
         <img className=" w-36 p-2 border" src={party.image} alt={party.party} />
       </div>

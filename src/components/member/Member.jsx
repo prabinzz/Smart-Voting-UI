@@ -24,7 +24,7 @@ const Member = () => {
   return (
     <div className="container mx-auto">
       <div className=" bg-white rounded-lg overflow-x-auto mt-4">
-        <table className="table-auto w-full">
+        <table className="table-auto w-full select-none">
           <thead className="border-b">
             <tr className="bg-white text-left">
               <th className={`${thStyle}`}>ID</th>

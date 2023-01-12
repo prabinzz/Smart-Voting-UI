@@ -22,7 +22,7 @@ const HeroSection = () => {
             View Vote Count
           </Link>
         </div>
-        <div className="hidden lg:mt-0 lg:col-span-5 lg:flex">
+        <div className="lg:mt-0 lg:col-span-5 lg:flex">
           <img src={voting}></img>
         </div>
       </div>

@@ -30,7 +30,9 @@ const VoteCount = () => {
     <div className="container mx-auto pb-8">
       <Title title="Vote Count" />
       <BarChart partyData={partyData} partyList={partyList} total={totalVote} />
-      <div className="text-2xl text-center mt-12">Candidate List</div>
+      <div className="text-2xl font-extrabold text-gray-800 text-center mt-12">
+        Candidate List
+      </div>
       <div className="flex flex-wrap gap-5 justify-center mt-8">
         {partyData.map((party, index) => (
           <PartyCard key={party.id} party={party} total={totalVote} />

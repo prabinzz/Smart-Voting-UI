@@ -3,7 +3,7 @@ import { FcOk, FcCancel } from "react-icons/fc";
 const MemberList = ({ data }) => {
   const trStyle = "text-gray-900 font-medium px-6 py-4 whitespace-nowrap";
   return (
-    <tr className="table-row bg-white border-b">
+    <tr className="table-row bg-white border-b hover:bg-purple-500 cursor-pointer">
       <td className={`${trStyle}`}>{data.id}</td>
       <td className={`${trStyle}`}>{data.rfid}</td>
       <td className={`${trStyle}`}>{data.name}</td>

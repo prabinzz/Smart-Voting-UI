@@ -7,7 +7,7 @@ import BarChart from "./BarChart";
 
 const VoteCount = () => {
   const [getPartyUrl, setGetPartyUrl] = useState(
-    "http://localhost:8000/getparty"
+    "https://iotvotingsystem.onrender.com/getparty"
   );
   const [partyData, setPartyData] = useState([]);
   const [partyList, setPartyList] = useState([]);
@@ -30,7 +30,7 @@ const VoteCount = () => {
     <div className="container mx-auto pb-8">
       <Title title="Vote Count" />
       <BarChart partyData={partyData} partyList={partyList} total={totalVote} />
-      <div className="text-2xl text-center mt-12">Member List</div>
+      <div className="text-2xl text-center mt-12">Candidate List</div>
       <div className="flex flex-wrap gap-10 justify-center mt-8">
         {partyData.map((party, index) => (
           <PartyCard key={party.id} party={party} total={totalVote} />

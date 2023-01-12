@@ -6,22 +6,26 @@ const Nav = () => {
     <div className="w-full bg-light-gray">
       <div className="container mx-auto">
         {/* Nav */}
-        <div className="nav-group flex gap-10">
+        <div className="nav-group flex lg:gap-10 gap-4">
           <Link to="/" className="nav-item flex gap-2 items-center py-4 group">
-            <div className="icon text-2xl text-dark-gray group-hover:text-purple-600">
+            <div className="icon lg:text-2xl sm:text-xl text-dark-gray group-hover:text-purple-600">
               <IoHomeSharp />
             </div>
-            <div className="text-xl group-hover:text-purple-600">Home</div>
+            <div className="lg:text-xl sm:text-lg group-hover:text-purple-600">
+              Home
+            </div>
           </Link>
 
           <Link
-            to="/members"
+            to="/voters"
             className="nav-item flex gap-2 items-center py-4 group"
           >
             <div className="icon text-2xl text-dark-gray group-hover:text-purple-600">
               <IoPeopleSharp />
             </div>
-            <div className="text-xl group-hover:text-purple-600">Members</div>
+            <div className="lg:text-xl sm:text-lg group-hover:text-purple-600">
+              Voter List
+            </div>
           </Link>
 
           <Link
@@ -31,7 +35,7 @@ const Nav = () => {
             <div className="icon text-2xl text-dark-gray group-hover:text-purple-600">
               <IoTrophySharp />
             </div>
-            <div className="text-xl group-hover:text-purple-600">
+            <div className="lg:text-xl sm:text-lg group-hover:text-purple-600">
               Vote Count
             </div>
           </Link>

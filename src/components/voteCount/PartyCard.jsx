@@ -3,7 +3,7 @@ import React from "react";
 const PartyCard = ({ party, total }) => {
   const percent = Math.floor((party.vote / total) * 100);
   return (
-    <div className="p-4 border shadow-md lg:min-w-[42rem] w-[98%] rounded-md bg-white">
+    <div className="p-4 border shadow-md md:min-w-[42rem] rounded-md bg-white">
       <div className="id mt-2">
         <b>ID:</b> {party.id}
       </div>

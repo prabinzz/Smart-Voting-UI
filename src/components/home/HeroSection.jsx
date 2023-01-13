@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import voting from "../../assets/voting.png";
 const HeroSection = () => {
   return (
     <section className="bg-white dark:bg-gray-900">
@@ -23,7 +22,7 @@ const HeroSection = () => {
           </Link>
         </div>
         <div className="lg:mt-0 lg:col-span-5 lg:flex">
-          <img src={voting}></img>
+          <img src="https://iili.io/HY51rNI.md.png"></img>
         </div>
       </div>
     </section>

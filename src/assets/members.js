@@ -5,7 +5,7 @@ const data = [
   },
   {
     name: "Prabin Parajuli",
-    image: "https://iili.io/HYIQm7V.jpg",
+    image: "https://iili.io/HY5zDhl.jpg",
   },
   {
     name: "Pratham Neupane",

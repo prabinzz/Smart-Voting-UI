@@ -13,7 +13,7 @@ const data = [
   },
   {
     name: "Ritesh Thapa",
-    image: "https://iili.io/HYIQbdQ.jpg",
+    image: "https://iili.io/Ha0vk4R.jpg",
   },
   {
     name: "Ujwal Adhikari",
